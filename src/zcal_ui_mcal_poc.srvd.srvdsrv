@@ -1,0 +1,6 @@
+@EndUserText.label: 'Service Definition for Public Holiday'
+define service ZCAL_UI_MCAL_POC {
+  expose ZCAL_C_MCAL_ALL_POC as HolidayAll;
+  expose ZCAL_C_MCAL_POC as HolidayRoot;
+  expose ZCAL_C_MCAL_TXT_POC as HolidayText;
+}
